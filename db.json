@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "f76b",
+      "email": "test@gmail.com",
+      "name": "test",
+      "role": "user"
+    },
+    {
+      "id": "fb62",
+      "role": "admin",
+      "email": "Agarwal@gmail.com",
+      "name": "Agarwal"
+    },
+    {
+      "id": "0828",
+      "role": "guest",
+      "name": "Test User",
+      "email": "testuser@gmail.com"
+    }
+  ]
+}
