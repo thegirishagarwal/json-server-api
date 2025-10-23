@@ -18,5 +18,12 @@
       "name": "Test User",
       "email": "testuser@gmail.com"
     }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "name": "Item 1",
+      "description": "Lorem ipsum"
+    }
   ]
 }
