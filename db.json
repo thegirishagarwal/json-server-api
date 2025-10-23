@@ -22,7 +22,7 @@
   "items": [
     {
       "id": "001",
-      "name": "Item 1",
+      "title": "Item 1",
       "description": "Lorem ipsum"
     }
   ]
