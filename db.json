@@ -1,288 +1,59 @@
 {
-  "blogs": [
+  "users": [
     {
-      "id": 1,
-      "title": "Building a Minimal Blog UI with Next.js App Router",
-      "slug": "building-a-minimal-blog-ui-with-nextjs-app-router",
-      "date": "2025-01-06",
-      "category": {
-        "id": 3,
-        "name": "Technology",
-        "slug": "technology"
-      },
-      "description": "A practical walkthrough for structuring pages, layouts, and reusable components using the Next.js App Router.",
-      "image": "/blog-1.jpg",
-      "userId": 1,
-      "views": 24495,
-      "comments": [
-        {
-          "id": 1000,
-          "userId": 5,
-          "name": "Kabir Singh",
-          "message": "Great write-up, very clear examples.",
-          "createdAt": "2025-01-23T12:13:34.611Z"
-        }
-      ]
+      "id": "f76b",
+      "email": "test@gmail.com",
+      "name": "test",
+      "role": "user"
     },
     {
-      "id": 2,
-      "title": "CSS Variables + Tailwind Tokens: A Clean Theming Strategy",
-      "slug": "css-variables-tailwind-tokens-a-clean-theming-strategy",
-      "date": "2025-01-09",
-      "category": {
-        "id": 3,
-        "name": "Technology",
-        "slug": "technology"
-      },
-      "description": "Learn how to combine CSS variables with Tailwind theme tokens for scalable light/dark themes.",
-      "image": "/blog-2.jpg",
-      "userId": 2,
-      "views": 1918,
-      "comments": [
-        {
-          "id": 1001,
-          "userId": 10,
-          "name": "Sneha Gupta",
-          "message": "Question: how would you handle auth here?",
-          "createdAt": "2025-01-26T11:02:18.373Z"
-        },
-        {
-          "id": 1002,
-          "userId": 9,
-          "name": "Arjun Kapoor",
-          "message": "This solved the exact problem I had—thanks!",
-          "createdAt": "2025-01-29T15:03:49.870Z"
-        },
-        {
-          "id": 1003,
-          "userId": 5,
-          "name": "Kabir Singh",
-          "message": "Fantastic—keep these coming!",
-          "createdAt": "2025-01-16T18:32:17.005Z"
-        }
-      ]
+      "id": "fb62",
+      "role": "admin",
+      "email": "Agarwal@gmail.com",
+      "name": "Agarwal"
     },
     {
-      "id": 3,
-      "title": "How to Write Better Slugs for SEO and Readability",
-      "slug": "how-to-write-better-slugs-for-seo-and-readability",
-      "date": "2025-01-12",
-      "category": {
-        "id": 5,
-        "name": "Marketing",
-        "slug": "marketing"
-      },
-      "description": "A simple checklist for creating clean, consistent URL slugs that search engines and users both love.",
-      "image": "/blog-3.jpg",
-      "userId": 3,
-      "views": 16190,
-      "comments": [
-        {
-          "id": 1004,
-          "userId": 8,
-          "name": "Meera Nair",
-          "message": "Super helpful and well explained.",
-          "createdAt": "2025-01-26T10:52:22.759Z"
-        },
-        {
-          "id": 1005,
-          "userId": 4,
-          "name": "Isha Patel",
-          "message": "Nice breakdown. Would love a follow-up post.",
-          "createdAt": "2025-01-17T18:03:13.102Z"
-        },
-        {
-          "id": 1006,
-          "userId": 3,
-          "name": "Rohan Mehta",
-          "message": "Question: how would you handle auth here?",
-          "createdAt": "2025-01-14T15:06:01.860Z"
-        }
-      ]
+      "id": "0828",
+      "role": "guest",
+      "name": "Test User",
+      "email": "testuser@gmail.com"
+    }
+  ],
+  "items": [
+    {
+      "id": "001",
+      "title": "Item 1",
+      "description": "Lorem ipsum"
     },
     {
-      "id": 4,
-      "title": "Designing Card Layouts that Feel Premium",
-      "slug": "designing-card-layouts-that-feel-premium",
-      "date": "2025-01-15",
-      "category": {
-        "id": 4,
-        "name": "Design",
-        "slug": "design"
-      },
-      "description": "Spacing, shadows, typography, and micro-interactions that make card-based UIs look modern and polished.",
-      "image": "/blog-4.jpg",
-      "userId": 4,
-      "views": 8746,
-      "comments": [
-        {
-          "id": 1007,
-          "userId": 1,
-          "name": "Aarav Sharma",
-          "message": "Super helpful and well explained.",
-          "createdAt": "2025-01-29T19:25:14.007Z"
-        }
-      ]
+      "id": "002",
+      "title": "Item 2",
+      "description": "Lorem ipsum"
     },
     {
-      "id": 5,
-      "title": "Remote Work Routines that Actually Stick",
-      "slug": "remote-work-routines-that-actually-stick",
-      "date": "2025-01-18",
-      "category": {
-        "id": 1,
-        "name": "Work",
-        "slug": "work"
-      },
-      "description": "A practical routine framework for staying productive without burning out while working from home.",
-      "image": "/blog-5.jpg",
-      "userId": 5,
-      "views": 14964,
-      "comments": [
-        {
-          "id": 1008,
-          "userId": 10,
-          "name": "Sneha Gupta",
-          "message": "Question: how would you handle auth here?",
-          "createdAt": "2025-01-19T13:33:01.851Z"
-        },
-        {
-          "id": 1009,
-          "userId": 6,
-          "name": "Ananya Rao",
-          "message": "This solved the exact problem I had—thanks!",
-          "createdAt": "2025-02-04T11:04:30.793Z"
-        },
-        {
-          "id": 1010,
-          "userId": 3,
-          "name": "Rohan Mehta",
-          "message": "Great write-up, very clear examples.",
-          "createdAt": "2025-01-29T17:15:08.032Z"
-        }
-      ]
+      "id": "003",
+      "title": "Item 3",
+      "description": "Lorem ipsum"
     },
     {
-      "id": 6,
-      "title": "Mindfulness for Busy People: 5-Minute Practices",
-      "slug": "mindfulness-for-busy-people-5-minute-practices",
-      "date": "2025-01-21",
-      "category": {
-        "id": 2,
-        "name": "Health",
-        "slug": "health"
-      },
-      "description": "Simple mindfulness exercises you can do between tasks to reset attention and reduce stress.",
-      "image": "/blog-6.jpg",
-      "userId": 6,
-      "views": 2438,
-      "comments": [
-        {
-          "id": 1011,
-          "userId": 5,
-          "name": "Kabir Singh",
-          "message": "Super helpful and well explained.",
-          "createdAt": "2025-02-08T03:30:06.923Z"
-        },
-        {
-          "id": 1012,
-          "userId": 2,
-          "name": "Neha Verma",
-          "message": "This is a really clean structure.",
-          "createdAt": "2025-02-06T10:14:14.848Z"
-        },
-        {
-          "id": 1013,
-          "userId": 5,
-          "name": "Kabir Singh",
-          "message": "Question: how would you handle auth here?",
-          "createdAt": "2025-01-23T08:44:48.273Z"
-        },
-        {
-          "id": 1014,
-          "userId": 10,
-          "name": "Sneha Gupta",
-          "message": "Super helpful and well explained.",
-          "createdAt": "2025-02-06T07:11:20.711Z"
-        }
-      ]
+      "id": "004",
+      "title": "Item 4",
+      "description": "Lorem ipsum"
     },
     {
-      "id": 7,
-      "title": "Understanding Server Components vs Client Components",
-      "slug": "understanding-server-components-vs-client-components",
-      "date": "2025-01-24",
-      "category": {
-        "id": 3,
-        "name": "Technology",
-        "slug": "technology"
-      },
-      "description": "A clear mental model for when to use Server Components and when you need Client Components in Next.js.",
-      "image": "/blog-7.jpg",
-      "userId": 7,
-      "views": 14764,
-      "comments": []
+      "id": "005",
+      "title": "Item 5",
+      "description": "Lorem ipsum"
     },
     {
-      "id": 8,
-      "title": "How to Build a Search UX Users Enjoy",
-      "slug": "how-to-build-a-search-ux-users-enjoy",
-      "date": "2025-01-27",
-      "category": {
-        "id": 4,
-        "name": "Design",
-        "slug": "design"
-      },
-      "description": "From input states to empty results—make search feel fast, helpful, and predictable.",
-      "image": "/blog-8.jpg",
-      "userId": 8,
-      "views": 12606,
-      "comments": []
+      "id": "006",
+      "title": "Item 6",
+      "description": "Lorem ipsum"
     },
     {
-      "id": 9,
-      "title": "A Beginner’s Guide to Content Strategy for Blogs",
-      "slug": "a-beginners-guide-to-content-strategy-for-blogs",
-      "date": "2025-01-30",
-      "category": {
-        "id": 5,
-        "name": "Marketing",
-        "slug": "marketing"
-      },
-      "description": "How to decide what to write, how often to publish, and how to build a consistent editorial pipeline.",
-      "image": "/blog-9.jpg",
-      "userId": 9,
-      "views": 20700,
-      "comments": [
-        {
-          "id": 1015,
-          "userId": 3,
-          "name": "Rohan Mehta",
-          "message": "This is a really clean structure.",
-          "createdAt": "2025-02-15T07:07:00.346Z"
-        },
-        {
-          "id": 1016,
-          "userId": 10,
-          "name": "Sneha Gupta",
-          "message": "Question: how would you handle auth here?",
-          "createdAt": "2025-02-03T20:50:39.349Z"
-        },
-        {
-          "id": 1017,
-          "userId": 6,
-          "name": "Ananya Rao",
-          "message": "This is a really clean structure.",
-          "createdAt": "2025-01-31T13:46:05.159Z"
-        },
-        {
-          "id": 1018,
-          "userId": 7,
-          "name": "Vikram Joshi",
-          "message": "Fantastic—keep these coming!",
-          "createdAt": "2025-02-12T22:42:31.397Z"
-        }
-      ]
+      "id": "007",
+      "title": "Item 7",
+      "description": "Lorem ipsum"
     }
   ]
 }
